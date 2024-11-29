@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: 400px;
+    color: black;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    color: white;
+    margin-top: 1;
+    background-color: #1A165C;
+    position: fixed;
+}
+
+header h3{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #3C486B;
+    color: white;
+    padding: 1rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 15rem;
+  }
+  
+  .sidebar li {
+    margin: 1rem 0;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .sidebar a:hover {
+    background-color: #575757;
+    color: #ff9800;
+  }
+  
+  /* Content */
+  .content {
+    margin-left: 250px; /* Sama dengan lebar sidebar */
+    padding: 1rem;
+    flex-grow: 1;
+  }
+
+.konten-1{
+    width: 1200px;
+    height: 1500px;
+    margin-left: 16.5rem;
+    margin-top: 5rem;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    flex-basis: 90%;
+    display: flex;
+}
+
+
+
+.footer {
+    width: 1250;
+    margin-left: 12rem;
+    background-color: #1A1A5E;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+.footer .left, .footer .right {
+    display: flex;
+    align-items: center;
+}
+.footer .left img {
+    width: 80px;
+    margin-right: 20px;
+}
+.footer .left .info {
+    line-height: 1.6;
+}
+.footer .left .info p {
+    margin: 0;
+    color: white;
+}
+.footer .right .social-icons {
+    display: flex;
+    gap: 20px;
+}
+.footer .right .social-icons a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+.footer .right .social-icons a:hover {
+    color: #ccc;
+}
+.footer .copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    color: white;
+}
+
+
